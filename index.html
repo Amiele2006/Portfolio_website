@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Portfolio">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./src/index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header-wrap">
+        <h1 id="name"> Oluwafunmike Laja </h1>
+       <button type="button" id="button-1"> <img src="./public/images/Frame 51.png" alt="social links" id="links"> </button>
+    </header>
+
+    <!-- Information -->
+    <main id="main-wrapper">
+        <div id="name-container"> 
+            <h1 id="name-1"> Hello, I'm<br/><pre class="tags"><</pre>Oluwafunmike<pre class="tags">/> </pre></h1>
+        </div>
+
+        <p id="desc"> My name is Oluwafunmike laja. I am a junior full-stack developer who has 9 months experience in using
+            backend technology and has an interest in frontend technology. I have built projects using Node JS, Express JS,
+            React and SASS. I am eager to learn more about both frontend development and backend development.
+        </p>
+
+        <div id="picture-container">
+            <img src="./public/images/966943372-IMG-20240123-WA0032.jpg" alt=" a girl" id="image-1">
+        </div>
+
+       <div id="container">
+        <div id="flex-container-1">
+            <p class="items"> 9<span class="plus">+</span></p>
+            <p class="items"> 3 </p>
+        </div>
+
+        <div id="flex-container-2">
+            <p class="items-1"> Months</p>
+            <p class="items-1" id="complete"> Completed  Projects</p>
+        </div>
+        <p id="exp">Experience</p>
+       </div>
+    </main>
+
+    <main id="main-2">
+
+        <!-- Languages -->
+        <div id="lang-contain"> 
+            <h1 id="lang"> Languages  </h1> 
+        </div>
+
+        <div id="flex-container-3">
+            <div id="react" class="items-2">
+                <img src="/public/icons/icons8-react-100.png" alt="react-icon" id="react-icon">
+                <p id="react-text"> React </p>
+            </div>
+            <div class="items-2" id="html">
+                <img src="/public/icons/icons8-html-50.png" alt="html-icon" id="html-icon">
+                <p id="html-text"> HTML </p>
+            </div>
+            <div class="items-2" id="css">
+                <img src="/public/icons/icons8-css-50.png" alt="css-icon" id="css-icon">
+                <p id="css-text"> CSS </p>
+            </div>
+            <div class="items-2" id="js">
+                <img src="/public/icons/icons8-js-50.png" alt="js-icon" id="js-icon">
+                <p id="js-text"> Javascript </p>
+            </div>
+            <div class="items-2" id="sass">
+                <img src="/public/icons/icons8-sass-avatar-50.png" alt="sass-icon" id="sass-icon">
+                <p id="sass-text"> SASS </p>
+            </div>
+            <div class="items-2" id="nodejs">
+                <img src="/public/icons/node-js.svg" alt="nodejs-icon" id="nodejs-icon">
+                <p id="nodejs-text"> Node js </p>
+            </div>
+            <div class="items-2" id="express">
+                <img src="/public/icons/express.svg" alt="express-icon" id="express-icon">
+                <p id="express-text"> Express </p>
+            </div>
+            <div class="items-2" id="mongodb">
+                <img src="/public/icons/mongodb.svg" alt="mongodb-icon" id="mongodb-icon">
+                <p id="mongodb-text"> Mongo db</p>
+            </div>
+        </div>   
+      
+        <!-- Projects  -->
+        <div id="projects-container">
+            <h1 id="projects"> Projects </h1>
+            <div id="grid-container-1">
+                <div class="items-3" id="grid-1">
+                    <h1 id="project-1"> Donor Website Landing Page </h1>
+                    <p id="tech-1"> HTML + CSS </p>
+                    <p id="desc-2"> Designed And Built The Landing Page Of A Blood Donation Website.</p>
+                    <a  href="/" id="view-link">View</a>
+                </div>
+                <p id="text-1"></p>
+                <div class="items-3" id="grid-1">
+                    <h1 id="project-2"> Signup Page </h1>
+                    <p id="tech-2"> Javascript + HTML + CSS + SASS </p>
+                    <p id="desc-3"> Built A Simple Signup Page That Validates User's Information.</p>
+                    <a href="/" id="view-link"> View </a>
+                </div>
+                <div class="items-3" id="grid-3">
+                    <h1 id="project-3"> Book Library Server </h1>
+                    <p id="tech-3"> Node JS + Express JS + Mongo DB </p>
+                    <p id="desc-4"> Built A Library Server That Performs CORS Technology.</p>
+                    <a href="/" id="view-link"> View </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages Container -->
+        <div id="message-form">
+            <h1 id="message-header"> Send Me A Message </h1>
+            <p id="message-text">Got A Proposal Or Question, Or You Wanna Say Hello? Hit Me Up </p>
+
+            <form id="form" >
+
+                <div id="grid-container-2">
+                    <div class="items-4" id="grid-6">
+                        <label id="name" for="input-1"> Your Name </label>
+                        <input type="text" id="input-1" aria-required="true" size="36px" name="name" required autocomplete="name">
+                    </div>
+                    <div class="items-4" id="grid-5">
+                        <label id="email" for="input-2"> Email Address </label>
+                        <input type="email" id="input-2" aria-required="true" size="47px" name="email" required autocomplete="email">
+                    </div>
+                    <div class="items-4" id="grid-4">
+                        <label id="message" for="input-3"> Your Message </label><br/>
+                        <input type="text" id="input-3" aria-required="true" size="116px" name="message" required autocomplete="on">
+                    </div>
+                </div>
+
+                <button type="submit" id="flex-container-4">
+                    <p id="shoot" class="items-5">SHOOT <img src="/public/icons/icons8-right-50.png" alt="right-arrow" id="right-arrow" class="items-5"></p>
+                </button>
+            </form>
+        </div>
+
+        <h1 id="thanks">Thanks For Your Time</h1>
+
+        <footer id="flex-container-5">
+            <p id="copy"> copyright reserved 2024 </p>
+            <button type="button" id="button-2"> <img src="/public/images/Frame 51.png" alt="social links" id="links-1"> </button>
+        </footer>
+
+        <hr id="footer-line">
+        <div id="star"></div>
+    </main>
+    <script src="./src/index.js"></script>
+</body>
+</html>
