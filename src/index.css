@@ -191,6 +191,7 @@ body{
     grid-template-columns: repeat(4,0.238fr);
     grid-template-rows: repeat(2,auto);
     row-gap: 35px;
+    column-gap: 12px;
     position: relative;
     top:600px;
 }
@@ -526,6 +527,7 @@ body{
 #grid-3{
     position:relative;
     bottom:190px;
+    width:0.2fr;
 }
 
 #project-3{
