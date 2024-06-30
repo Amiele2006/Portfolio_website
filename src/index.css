@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Montserrat-Light';
     src: url("/public/fonts/Montserrat-Light.woff") ;
 }
@@ -25,8 +25,8 @@
 
 @font-face {
     font-family: 'Covered By your Grace';
-    src: url("/public/fonts/Covered_By_Your_Grace.ttf");
-}
+    src: url("/public/fonts/Covered_By_Your_Grace.ttf"); 
+}*/
 
 body{
     background-color: rgba(39, 35, 50, 1);
@@ -71,6 +71,7 @@ body{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
     text-shadow: -4px 4px 4  rgba(153, 92, 214, 1);
 }
 
@@ -140,8 +141,8 @@ body{
 }
 
 .items-1{
-    font-family: 'Montserrat-Thin',sans-serif;
-    font-weight: 600;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 100;
     font-size: 19px;
     line-height: 36.57px;
     color:rgba(255,255,255,1);
@@ -155,8 +156,8 @@ body{
 }
 
 #exp{
-    font-family:'Montserrat-Thin',sans-serif;
-    font-weight: 300;
+    font-family:'Montserrat',sans-serif;
+    font-weight: 100;
     font-style: italic;
     font-size:64px;
     line-height: 109.71px;
@@ -220,7 +221,7 @@ body{
 #react-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -244,7 +245,7 @@ body{
 #html-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -268,7 +269,7 @@ body{
 #css-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -292,7 +293,7 @@ body{
 #js-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -316,7 +317,7 @@ body{
 #sass-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -340,7 +341,7 @@ body{
 #nodejs-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -364,7 +365,7 @@ body{
 #express-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -388,7 +389,7 @@ body{
 #mongodb-text{
     position: relative;
     top:100px;
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 24px;
     line-height: 29.26px;
@@ -436,7 +437,7 @@ body{
 }
 
 #project-1{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 48.76px;
@@ -446,7 +447,7 @@ body{
 }
 
 #tech-1{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 100;
     font-size:22px;
     line-height: 36.57px;
@@ -456,7 +457,7 @@ body{
 }
 
 #desc-2{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size:22px;
     width:400px;
@@ -467,7 +468,7 @@ body{
 
 #view-link{
     text-decoration: none;
-    font-family: 'Montserrat-Light',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-style: italic;
     font-size: 24px;
     font-weight: 400;
@@ -495,7 +496,7 @@ body{
 }
 
 #project-2{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 48.76px;
@@ -505,7 +506,7 @@ body{
 }
 
 #tech-2{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 100;
     font-size:22px;
     line-height: 36.57px;
@@ -515,7 +516,7 @@ body{
 }
 
 #desc-3{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size:22px;
     width:400px;
@@ -530,7 +531,7 @@ body{
 }
 
 #project-3{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 600;
     font-size: 28px;
     line-height: 48.76px;
@@ -540,7 +541,7 @@ body{
 }
 
 #tech-3{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 100;
     font-size:22px;
     line-height: 36.57px;
@@ -550,7 +551,7 @@ body{
 }
 
 #desc-4{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size:22px;
     width:400px;
@@ -574,7 +575,7 @@ body{
 }
 
 #message-header{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 700;
     font-size: 35px;
     line-height: 54.86px;
@@ -587,7 +588,7 @@ body{
 }
 
 #message-text{
-    font-family: 'Montserrat-Light',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 22px;
@@ -626,7 +627,7 @@ body{
 }
 
 #name{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 21px;
     line-height: 18.48px;
@@ -672,7 +673,7 @@ body{
 }
 
 #email{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 21px;
     line-height: 18.48px;
@@ -687,7 +688,7 @@ body{
 }
 
 #message{
-    font-family: 'Montserrat-Medium',sans-serif;
+    font-family: 'Montserrat',sans-serif;
     font-weight: 500;
     font-size: 21px;
     line-height: 18.48px;
@@ -746,7 +747,7 @@ body{
 }
 
 #thanks{
-    font-family: 'Covered By your Grace',sans-serif;
+    font-family: 'Covered By Your Grace', cursive;
     font-weight:400;
     font-size: 60px;
     line-height: 87.53px;
@@ -768,7 +769,7 @@ body{
 }
 
 #copy{
-    font-family:'Montserrat-Medium',sans-serif;
+    font-family:'Montserrat',sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 20px;
