@@ -762,6 +762,11 @@ body{
     top:1900px;
 }
 
+#button-2{
+    background-color: rgba(39, 35, 50, 1);
+    border:none;
+}
+
 #links-1{
     height:40px;
 }
