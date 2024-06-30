@@ -703,7 +703,7 @@ body{
     width:250px;
     height:60px;
     position:relative;
-    top:160px;
+    top:100px;
     left:350px;
     background-color:  rgba(39, 35, 50, 1);
 }
@@ -782,9 +782,9 @@ body{
 
 #footer-line{
     border:1px solid rgba(153, 92, 214, 1);
-    width:1280px;
+    width:1080px;
     position: relative;
-    top:1878px;
+    top:1898px;
     margin-bottom:20px;
 }
 
