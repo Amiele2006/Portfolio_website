@@ -94,7 +94,7 @@ body{
     position:relative;
     bottom:260px;
     left: 1008px;
-    box-shadow:22px 15px black;
+    box-shadow:22px 15px  5px black;
 }
 
 #image-1{
@@ -191,7 +191,7 @@ body{
     grid-template-columns: repeat(4,0.238fr);
     grid-template-rows: repeat(2,auto);
     row-gap: 35px;
-    column-gap: 12px;
+    column-gap: 15px;
     position: relative;
     top:600px;
 }
