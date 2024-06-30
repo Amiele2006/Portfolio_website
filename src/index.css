@@ -30,9 +30,7 @@
 
 body{
     background-color: rgba(39, 35, 50, 1);
-    padding-left: 80px;
-    padding-right:80px;
-    padding-bottom: 20px;
+    margin:0 20px 80px 80px;
 }
 
 #header-wrap{
