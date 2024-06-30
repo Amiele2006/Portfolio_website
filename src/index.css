@@ -566,10 +566,10 @@ body{
     background-color:rgba(39, 35, 50, 1); 
     position:absolute;
     top:2710px;
-    left:250px;
+    left:240px;
+    display:block;
     border:2px solid black;
-    margin-left: 0px;
-    margin-right: -10px;
+    margin:0 auto;
 }
 
 #message-header{
@@ -581,7 +581,7 @@ body{
     padding-top: 60px;
     position:relative;
     top: 10px;
-    width:357px;
+    width:377px;
     left:320px;
 }
 
