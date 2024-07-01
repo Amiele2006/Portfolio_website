@@ -6,6 +6,7 @@ const cors = require('cors')
 require('dotenv').config(); // Load environment variables from .env file
 
 const app = express();
+app.use(express.json());
 const port = process.env.PORT; // Use the same port number for frontend and backend
 
 // Middleware to parse URL-encoded bodies (as sent by HTML forms)
@@ -14,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Allow requests from frontend port
 const frontendPort = process.env.FRONTEND; // Replace with your frontend port
 const corsOptions = {
-    origin: `http://127.0.0.1:${frontendPort}`,
+    origin:"*",
     methods: ['GET', 'POST'], // Add methods your frontend is allowed to use
     credentials: true // Allow credentials (cookies, authorization headers, etc.)
 };
@@ -32,7 +33,7 @@ app.get('/', (req, res) => {
 // POST route to handle form submission
 app.post('/send', (req, res) => {
   // Extract form data
-  console.log(req.body)
+  // console.log(req.body)
   const {name,email,message} = req.body;
 
 
